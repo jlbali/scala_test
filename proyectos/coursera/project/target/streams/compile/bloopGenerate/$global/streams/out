@@ -1,0 +1,4 @@
+[debug] [coursera-build] Classpath dependencies List()
+[debug] [coursera-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'coursera-build' to '/home/lbali/proyectos/Gits/scala_test/proyectos/coursera/project/.bloop/coursera-build.json'
+[success] Generated .bloop/coursera-build.json

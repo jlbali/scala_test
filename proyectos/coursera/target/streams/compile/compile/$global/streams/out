@@ -1,0 +1,6 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/lbali/proyectos/Gits/scala_test/proyectos/coursera/src/main/scala/scalaprog1/week1/Lesson.scala:24:22: method loop in object Lesson does nothing other than call itself recursively[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def loop:Boolean = loop // this is ok.[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 5 deprecation warnings (since 2.12.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 6 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

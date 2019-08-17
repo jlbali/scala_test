@@ -8,6 +8,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$Account$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$$anon$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$BlockTask$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$BlockTask$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
@@ -36,6 +38,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/example/Greeting.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$$anon$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$ThreadTask$1$$anon$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$ThreadTask$1$$anon$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$Task$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$Task$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1.class[0m
@@ -44,4 +50,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Hello$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/example/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaprog3/weekl/Lesson_3_1$ThreadTask$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/classes/scalaprog3/weekl/Lesson_3_1$ThreadTask$1.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

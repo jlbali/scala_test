@@ -173,7 +173,8 @@ object Lesson_3_1 {
         println("2-norm: "+ pNorm(x,2))
         println("2-norm two parts: "+ pNormTwoParts(x,2))
         // Variante paralela recursiva.
-        def parallel[A,B](taskA: => A, taskB: => B): (A,B) = ???
+        //def parallel[A,B](taskA: => A, taskB: => B): (A,B) = ???
+        def parallel[A,B](taskA: => A, taskB: => B): (A,B) = (taskA,taskB)
         
         val threshold = 2
         def segmentRec(a:Array[Double], p:Double, s: Int, t: Int): Double = {
@@ -192,12 +193,96 @@ object Lesson_3_1 {
 
     }
 
+    def test8(){
+        import scala.util.Random
+        def mcCount(iter:Int):Int = {
+            val random = new Random
+            var hits = 0
+            for (i <- 0 until iter){
+                val (x,y) = (random.nextDouble, random.nextDouble)
+                if (x*x + y*y < 1 ) hits += 1 
+            }
+            hits
+        
+        }
+        def monteCarloPiSeq(iter:Int): Double = 4.0 *mcCount(iter) / iter
+        
+        println("Pi vale estimado " + monteCarloPiSeq(10000))
+
+        def parallel[A,B](taskA: => A, taskB: => B): (A,B) = (taskA,taskB)
+        def monteCarloPiPar(iter:Int): Double = {
+            val frac = iter/4
+            val ((sum1, sum2), (sum3, sum4)) = parallel(parallel(mcCount(frac),mcCount(frac)), 
+                parallel(mcCount(frac),mcCount(iter - 3*frac)))
+            4.0*(sum1+sum2+sum3+sum4)/iter
+        }
+        println("Pi vale estimado (pseudo par) " + monteCarloPiPar(10000))
+    }
+
+    def test9() = {
+        
+        trait Task[A] {
+            def join:A
+        }
+
+        class BlockTask[A](task: => A) extends Task[A] {
+            private var value:A = task
+            def join:A = value
+        }
+
+        // No anda, se cuelga...
+        class ThreadTask[A] (task: => A) extends Task[A]  {
+            private var value:A = _
+            val me = this
+            private val t = new Thread {
+                override def run(){
+                    me.value = task // Ver si esto se ejecuta...
+                }
+            }
+            //def start = this.t.start()
+            t.start()
+            def join:A = {
+                this.t.join
+                value
+            }
+        }
+
+        import scala.util.Random
+        def mcCount(iter:Int):Int = {
+            val random = new Random
+            var hits = 0
+            for (i <- 0 until iter){
+                val (x,y) = (random.nextDouble, random.nextDouble)
+                if (x*x + y*y < 1 ) hits += 1 
+            }
+            hits        
+        }
+        def monteCarloPiPar2(iter:Int): Double = {
+            val frac = iter/4
+            //val t1 = new ThreadTask(mcCount(frac))
+            //val t2 = new ThreadTask(mcCount(frac))
+            //val t3 = new ThreadTask(mcCount(frac))
+            //val t4 = new ThreadTask(mcCount(iter - 3*frac))
+            val t1 = new BlockTask(mcCount(frac))
+            val t2 = new BlockTask(mcCount(frac))
+            val t3 = new BlockTask(mcCount(frac))
+            val t4 = new BlockTask(mcCount(iter - 3*frac))
+
+            4.0*(t1.join+t2.join+t3.join+t4.join)/iter
+        }
+        println("Pi vale estimado (task par) " + monteCarloPiPar2(10000))
+
+        
+    }
+
     //test1
     //test2
     //test3
     //test4
     //test5() // Never completes (deadlock!!
     //test6()
-    test7()
+    //test7()
+    //test8()
+    test9()
 }
 

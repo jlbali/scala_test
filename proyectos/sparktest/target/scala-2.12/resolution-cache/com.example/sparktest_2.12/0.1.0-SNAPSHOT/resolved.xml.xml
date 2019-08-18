@@ -4,7 +4,7 @@
 		module="sparktest_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190818193531"
+		publication="20190818194222"
 	>
 		<description>
 		SparkTest
@@ -35,6 +35,5 @@
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.12" rev="2.4.3" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.12" rev="2.4.3" conf="compile->default(compile)"/>
-		<dependency org="org.scalameta" name="semanticdb-scalac_2.12.8" rev="4.2.0" conf="plugin->default(compile)"/>
 	</dependencies>
 </ivy-module>

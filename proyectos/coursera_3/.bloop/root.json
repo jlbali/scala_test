@@ -1,0 +1,242 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "root",
+        "directory" : "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3",
+        "sources" : [
+            "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/src/main/scala-2.12",
+            "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/src/main/scala",
+            "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/src/main/java",
+            "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "/home/lbali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+            "/home/lbali/.ivy2/cache/com.storm-enroute/scalameter-core_2.12/jars/scalameter-core_2.12-0.8.2.jar",
+            "/home/lbali/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar",
+            "/home/lbali/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar",
+            "/home/lbali/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar",
+            "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar",
+            "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar",
+            "/home/lbali/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar"
+        ],
+        "out" : "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/.bloop/root",
+        "classesDir" : "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/.bloop/root/scala-2.12/classes",
+        "resources" : [
+            "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/src/main/resources",
+            "/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3/target/scala-2.12/resource_managed/main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.8",
+            "options" : [
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:/home/lbali/proyectos/Gits/scala_test/proyectos/coursera_3",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:/home/lbali/.ivy2/cache/org.scalameta/semanticdb-scalac_2.12.8/jars/semanticdb-scalac_2.12.8-4.2.0.jar"
+            ],
+            "jars" : [
+                "/home/lbali/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.8.jar",
+                "/home/lbali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar",
+                "/home/lbali/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar",
+                "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/home/lbali/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.8",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.storm-enroute",
+                    "name" : "scalameter-core_2.12",
+                    "version" : "0.8.2",
+                    "artifacts" : [
+                        {
+                            "name" : "scalameter-core_2.12",
+                            "path" : "/home/lbali/.ivy2/cache/com.storm-enroute/scalameter-core_2.12/jars/scalameter-core_2.12-0.8.2.jar"
+                        },
+                        {
+                            "name" : "scalameter-core_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.storm-enroute/scalameter-core_2.12/srcs/scalameter-core_2.12-0.8.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-math3",
+                    "version" : "3.2",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-math3",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar"
+                        },
+                        {
+                            "name" : "commons-math3",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-lang3",
+                    "version" : "3.4",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-lang3",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar"
+                        },
+                        {
+                            "name" : "commons-lang3",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.12.8",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-xml_2.12",
+                    "version" : "1.0.5",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-xml_2.12",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar"
+                        },
+                        {
+                            "name" : "scala-xml_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-parser-combinators_2.12",
+                    "version" : "1.0.4",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-parser-combinators_2.12",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar"
+                        },
+                        {
+                            "name" : "scala-parser-combinators_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.ow2.asm",
+                    "name" : "asm",
+                    "version" : "5.0.4",
+                    "artifacts" : [
+                        {
+                            "name" : "asm",
+                            "path" : "/home/lbali/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar"
+                        },
+                        {
+                            "name" : "asm",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.4-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

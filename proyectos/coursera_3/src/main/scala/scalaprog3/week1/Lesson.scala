@@ -275,6 +275,25 @@ object Lesson_3_1 {
         
     }
 
+    def test10() = {
+        import org.scalameter._
+
+        val time = measure {
+            (0 to 1000000).toArray
+        }
+        println("Tardó " + time)
+    }
+
+    def test11() = {
+        import org.scalameter._
+
+        val time = withWarmer(new Warmer.Default) measure {
+            (0 to 1000000).toArray
+        }
+        println("Tardó " + time)
+    }
+
+
     //test1
     //test2
     //test3
@@ -283,6 +302,8 @@ object Lesson_3_1 {
     //test6()
     //test7()
     //test8()
-    test9()
+    //test9()
+    //test10()
+    test11()
 }
 

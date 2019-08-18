@@ -4,7 +4,7 @@
 		module="coursera_3-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190814195102"
+		publication="20190817230735"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

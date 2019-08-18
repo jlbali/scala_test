@@ -8,7 +8,8 @@ ThisBuild / organizationName := "example"
 lazy val root = (project in file("."))
   .settings(
     name := "coursera_3",
-    libraryDependencies += scalaTest % Test
+    libraryDependencies += scalaTest % Test,
+    libraryDependencies += "com.storm-enroute" %% "scalameter-core" % "0.8.2"
   )
 
 // Uncomment the following for publishing to Sonatype.

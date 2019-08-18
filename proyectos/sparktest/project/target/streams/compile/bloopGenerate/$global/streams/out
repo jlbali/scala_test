@@ -1,0 +1,4 @@
+[debug] [sparktest-build] Classpath dependencies List()
+[debug] [sparktest-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'sparktest-build' to '/home/lbali/proyectos/Gits/scala_test/proyectos/sparktest/project/.bloop/sparktest-build.json'
+[success] Generated .bloop/sparktest-build.json

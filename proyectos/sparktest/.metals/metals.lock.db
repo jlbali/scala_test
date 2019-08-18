@@ -1,6 +1,6 @@
 #FileLock
-#Sun Aug 18 19:35:11 ART 2019
+#Sun Aug 18 20:11:37 ART 2019
 hostName=lbali-PC
-id=16ca6debe3bf5dadd7c35570bf33728ff64767bf59d
+id=16ca700181a51809be7ad54e313f71a1099c2f63660
 method=file
-server=127.0.1.1\:53472
+server=127.0.1.1\:35017

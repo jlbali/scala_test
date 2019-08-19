@@ -79,12 +79,27 @@ object Test1 {
         sc.stop()
     }
 
+    def test7 = {
+        import org.apache.spark.{SparkConf, SparkContext}
+        import org.apache.spark.SparkContext._
+        println("Creating Context")
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val numbers = sc.parallelize(List(1,2,3,4))
+        println("Numeros originales: " + (numbers.collect().mkString(",")))
+        val squared = numbers map (x => x*x)
+        println("Numeros al cuadrado: " + (squared.collect().mkString(","))) // Este no anda.
+        sc.stop()
+    }
+
 
     //test1
     //test2
     //test3 // Se cuelga...
     //test4  // Se cuelga...
     //test5  // Anda!
-    test6
+    //test6 // Se cuelga.
+    test7 //Tampoco anda.
+
 }
 

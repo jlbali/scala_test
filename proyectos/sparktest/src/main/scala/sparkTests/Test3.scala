@@ -175,7 +175,78 @@ object Test3 {
 
     }
 
+    def test10 = {
+        
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val sqlContext = new SQLContext(sc)
+        
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.functions._
+        import scala.util.Random
 
+        val rdd = sc.parallelize(1 to 10).map(x => (x, x + Random.nextGaussian()))
+        println("Items en RDD: " + (rdd.collect().mkString(",")))
+        // Conversion a DataFrame
+        val df = rdd.toDF("x","y")
+        df.select(col("x")).show
+        
+        df.select(col("x"), df.col("x") > 5).show
+        sc.stop()
+    }
+
+
+    def test11 = {
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val sqlContext = new SQLContext(sc)
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.types._
+        import org.apache.spark.sql.functions._
+
+        val path = "../data/movies.json"
+        val movies = sqlContext.read.json(path)
+        movies.select('movie_title,('produced_year - ('produced_year % 10)).
+            as("produced_decade")).show(10)
+        
+        movies.selectExpr("count(distinct(movie_title)) as movies","count(distinct(actor_name)) as actors").show
+
+        sc.stop()
+    }
+
+    def test12 = {
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val sqlContext = new SQLContext(sc)
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.types._
+        import org.apache.spark.sql.functions._
+
+        val path = "../data/movies.json"
+        val movies = sqlContext.read.json(path)
+        val newMovies = movies filter('produced_year > 2000)
+        newMovies.show(10)
+        newMovies.selectExpr("count(distinct(movie_title)) as movies","count(distinct(actor_name)) as actors").show
+        
+        sc.stop()
+    }
+
+    def test13 = {
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val sqlContext = new SQLContext(sc)
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.types._
+        import org.apache.spark.sql.functions._
+
+        val path = "../data/movies.json"
+        val movies = sqlContext.read.json(path)
+        val movies2000 = movies filter('produced_year === 2000) // Ojo que se requieren ===
+        val moviesNot2000 = movies filter('produced_year =!= 2000) // Ojo con el uso de distinto.
+        movies2000.selectExpr("count(distinct(movie_title)) as movies","count(distinct(actor_name)) as actors").show
+
+        sc.stop()
+    }
 
     //test1
     //test2
@@ -185,5 +256,9 @@ object Test3 {
     //test6
     //test7
     //test8
-    test9
+    //test9
+    //test10
+    //test11
+    //test12
+    test13
 }

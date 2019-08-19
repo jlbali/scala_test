@@ -267,6 +267,37 @@ object Test3 {
         sc.stop()
     }
 
+    def test15 = {
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        sc.setLogLevel("ERROR")
+        val sqlContext = new SQLContext(sc)
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.types._
+        import org.apache.spark.sql.functions._
+
+        val path = "../data/movies.json"
+        val movies = sqlContext.read.json(path)
+        movies.selectExpr("movie_title", "length(movie_title) as length", "produced_year").orderBy("length").show
+        movies.selectExpr("movie_title", "length(movie_title) as length", "produced_year").orderBy('produced_year.desc).show
+        sc.stop()
+    }
+
+    def test16 = {
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        sc.setLogLevel("ERROR")
+        val sqlContext = new SQLContext(sc)
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.types._
+        import org.apache.spark.sql.functions._
+
+        val path = "../data/movies.json"
+        val movies = sqlContext.read.json(path)
+        movies.withColumn("Decade", 'produced_year - ('produced_year %10)).show
+        sc.stop()
+    }
+
 
     //test1
     //test2
@@ -281,5 +312,7 @@ object Test3 {
     //test11
     //test12
     //test13
-    test14
+    //test14
+    //test15
+    test16
 }

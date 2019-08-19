@@ -4,7 +4,7 @@
 		module="deep_learning_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190819190324"
+		publication="20190819201649"
 	>
 		<description>
 		deep_learning
@@ -34,5 +34,8 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.12" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.apache.mxnet" name="mxnet-full_2.11-linux-x86_64-cpu" rev="1.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.deeplearning4j" name="deeplearning4j-core" rev="1.0.0-beta4" conf="compile->default(compile)"/>
+		<dependency org="org.nd4j" name="nd4j-native-platform" rev="1.0.0-beta4" conf="compile->default(compile)"/>
+		<dependency org="org.scalameta" name="semanticdb-scalac_2.11.12" rev="4.2.0" conf="plugin->default(compile)"/>
 	</dependencies>
 </ivy-module>

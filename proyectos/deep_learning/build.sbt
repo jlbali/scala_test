@@ -9,7 +9,10 @@ lazy val root = (project in file("."))
   .settings(
     name := "deep_learning",
     libraryDependencies += scalaTest % Test,
-    libraryDependencies += "org.apache.mxnet" % "mxnet-full_2.11-linux-x86_64-cpu" % "1.5.0"
+    libraryDependencies += "org.apache.mxnet" % "mxnet-full_2.11-linux-x86_64-cpu" % "1.5.0", //MXNet
+    // deeplearning4j
+    libraryDependencies += "org.deeplearning4j" % "deeplearning4j-core" % "1.0.0-beta4",
+    libraryDependencies += "org.nd4j" % "nd4j-native-platform" % "1.0.0-beta4",
   )
 
 // Uncomment the following for publishing to Sonatype.

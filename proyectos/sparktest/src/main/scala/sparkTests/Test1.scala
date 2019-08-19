@@ -44,21 +44,47 @@ object Test1 {
         import org.apache.spark.SparkContext._
         println("Creando Context")
         val conf = new SparkConf().setMaster("local").setAppName("Prueba")
+        //val conf = new SparkConf().setAppName("Prueba")
         val sc = new SparkContext(conf)
         //val lines = sc.parallelize(List("pandas", "I like pandas"))
         val lines = sc.textFile("/home/lbali/proyectos/Gits/scala_test/proyectos/data/example.txt")
         val contador = lines map(line => line.length())
         contador.collect().foreach(println)
-
         sc.stop()
 
     }
 
+    def test5 = {
+        import org.apache.spark.{SparkConf, SparkContext}
+        import org.apache.spark.SparkContext._
+        println("Creating Context")
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val lines = sc.textFile("/home/lbali/proyectos/Gits/scala_test/proyectos/data/example.txt")
+        println("+++++ number of lines: " + lines.count())
+        sc.stop()
+    }
+
+
+    def test6 = {
+        import org.apache.spark.{SparkConf, SparkContext}
+        import org.apache.spark.SparkContext._
+        println("Creating Context")
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val lines = sc.textFile("/home/lbali/proyectos/Gits/scala_test/proyectos/data/example.txt")
+        val pandas = lines filter(line => line.contains("pandas"))
+        println("+++++ number of lines: " + lines.count())
+        println("+++++ number of lines with pandas: " + pandas.count()) // This does not work
+        sc.stop()
+    }
 
 
     //test1
     //test2
     //test3 // Se cuelga...
-    test4  // Se cuelga...
+    //test4  // Se cuelga...
+    //test5  // Anda!
+    test6
 }
 

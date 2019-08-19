@@ -248,6 +248,26 @@ object Test3 {
         sc.stop()
     }
 
+    // Reduced logs.
+    def test14 = {
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        sc.setLogLevel("ERROR")
+        val sqlContext = new SQLContext(sc)
+        import sqlContext.implicits._ // Esto es necesario para el toDF.
+        import org.apache.spark.sql.types._
+        import org.apache.spark.sql.functions._
+
+        val path = "../data/movies.json"
+        val movies = sqlContext.read.json(path)
+        val movies2000 = movies filter('produced_year === 2000) // Ojo que se requieren ===
+        val moviesNot2000 = movies filter('produced_year =!= 2000) // Ojo con el uso de distinto.
+        movies2000.selectExpr("count(distinct(movie_title)) as movies","count(distinct(actor_name)) as actors").show
+
+        sc.stop()
+    }
+
+
     //test1
     //test2
     //test3
@@ -260,5 +280,6 @@ object Test3 {
     //test10
     //test11
     //test12
-    test13
+    //test13
+    test14
 }

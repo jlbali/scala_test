@@ -6,3 +6,17 @@ assembly
 run
 compile
 run
+assembly
+compile
+clean
+compile
+package
+compile
+package
+clean
+package
+run
+clean
+run
+clean
+exit

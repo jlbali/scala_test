@@ -10,7 +10,8 @@ lazy val root = (project in file("."))
     name := "SparkTest",
     libraryDependencies += scalaTest % Test,
     libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.3",
-    libraryDependencies +=  "org.apache.spark" %% "spark-mllib" % "2.4.3",
+    libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.4.3",
+    libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.3",
   )
 
 // Uncomment the following for publishing to Sonatype.

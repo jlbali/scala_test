@@ -1,4 +1,5 @@
 package sparkTests
+import org.apache.spark.storage.StorageLevel
 
 
 object Test1 {
@@ -92,6 +93,21 @@ object Test1 {
         sc.stop()
     }
 
+    def test8 = {
+        import org.apache.spark.{SparkConf, SparkContext}
+        import org.apache.spark.SparkContext._
+        println("Creating Context")
+        val conf = new SparkConf().setMaster("local").setAppName("Test")
+        val sc = new SparkContext(conf)
+        val numbers = sc.parallelize(List(1,2,3,4))
+        //numbers.persist(StorageLevel.MEMORY_ONLY)
+        println("Numeros originales: " + (numbers.collect().mkString(",")))
+        val numbers2 = sc.parallelize(List(5,6,7,8))
+        println("Numeros al cuadrado: " + (numbers2.collect().mkString(","))) 
+        sc.stop()
+    }
+
+
 
     //test1
     //test2
@@ -100,6 +116,11 @@ object Test1 {
     //test5  // Anda!
     //test6 // Se cuelga.
     test7 //Tampoco anda.
+    //test8  // Anda.
 
 }
+
+
+// el código en spark-shell anda bien... No hace falta crear los contexts, se hace desde el sc.
+
 

@@ -1,0 +1,4 @@
+[debug] [machine_learning-build] Classpath dependencies List()
+[debug] [machine_learning-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'machine_learning-build' to '/home/lbali/proyectos/Gits/scala_test/proyectos/machine_learning/project/.bloop/machine_learning-build.json'
+[success] Generated .bloop/machine_learning-build.json

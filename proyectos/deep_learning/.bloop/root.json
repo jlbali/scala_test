@@ -19,9 +19,152 @@
             "/home/lbali/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.12.jar",
             "/home/lbali/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar",
             "/home/lbali/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar",
-            "/home/lbali/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.1.jar",
-            "/home/lbali/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar",
-            "/home/lbali/.ivy2/cache/args4j/args4j/bundles/args4j-2.0.29.jar"
+            "/home/lbali/.ivy2/cache/args4j/args4j/bundles/args4j-2.0.29.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/jars/deeplearning4j-core-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-tsne/jars/deeplearning4j-tsne-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/nearestneighbor-core/jars/nearestneighbor-core-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-api/jars/nd4j-api-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/com.jakewharton.byteunits/byteunits/jars/byteunits-0.9.1.jar",
+            "/home/lbali/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.5.jar",
+            "/home/lbali/.ivy2/cache/com.google.flatbuffers/flatbuffers-java/bundles/flatbuffers-java-1.10.0.jar",
+            "/home/lbali/.ivy2/cache/com.github.os72/protobuf-java-shaded-351/jars/protobuf-java-shaded-351-0.9.jar",
+            "/home/lbali/.ivy2/cache/com.github.os72/protobuf-java-util-shaded-351/jars/protobuf-java-util-shaded-351-0.9.jar",
+            "/home/lbali/.ivy2/cache/com.google.guava/guava/bundles/guava-20.0.jar",
+            "/home/lbali/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.7.jar",
+            "/home/lbali/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar",
+            "/home/lbali/.ivy2/cache/uk.com.robust-it/cloning/bundles/cloning-1.9.3.jar",
+            "/home/lbali/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.12.jar",
+            "/home/lbali/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-3.1.4.jar",
+            "/home/lbali/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.2.jar",
+            "/home/lbali/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-buffer/jars/nd4j-buffer-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-context/jars/nd4j-context-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-common/jars/nd4j-common-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.5.jar",
+            "/home/lbali/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.6.jar",
+            "/home/lbali/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.16.1.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/javacpp/jars/javacpp-1.5.jar",
+            "/home/lbali/.ivy2/cache/net.ericaro/neoitertools/jars/neoitertools-1.0.0.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/jars/deeplearning4j-nn-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-utility-iterators/jars/deeplearning4j-utility-iterators-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-util/jars/deeplearning4j-util-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.lucee/oswego-concurrent/bundles/oswego-concurrent-1.3.4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-common/jars/deeplearning4j-common-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native-api/jars/nd4j-native-api-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-jackson/jars/nd4j-jackson-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/com.github.oshi/oshi-core/jars/oshi-core-3.4.2.jar",
+            "/home/lbali/.ivy2/cache/net.java.dev.jna/jna-platform/jars/jna-platform-4.3.0.jar",
+            "/home/lbali/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.3.0.jar",
+            "/home/lbali/.ivy2/cache/org.threeten/threetenbp/jars/threetenbp-1.3.3.jar",
+            "/home/lbali/.ivy2/cache/it.unimi.dsi/fastutil/jars/fastutil-6.5.7.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-datasets/jars/deeplearning4j-datasets-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.datavec/datavec-data-image/jars/datavec-data-image-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.datavec/datavec-api/jars/datavec-api-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.freemarker/freemarker/jars/freemarker-2.3.23.jar",
+            "/home/lbali/.ivy2/cache/com.clearspring.analytics/stream/jars/stream-2.7.0.jar",
+            "/home/lbali/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar",
+            "/home/lbali/.ivy2/cache/com.tdunning/t-digest/jars/t-digest-3.2.jar",
+            "/home/lbali/.ivy2/cache/com.github.jai-imageio/jai-imageio-core/jars/jai-imageio-core-1.3.0.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/jars/imageio-jpeg-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/jars/imageio-metadata-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-lang/jars/common-lang-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-io/jars/common-io-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-image/jars/common-image-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/jars/imageio-tiff-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/jars/imageio-psd-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/jars/imageio-bmp-3.1.1.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-windows-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-ppc64le.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-arm.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-armhf.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-ios-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-ios-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/ffmpeg/jars/ffmpeg-4.1.3-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/flycapture/jars/flycapture-2.13.3.31-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/libdc1394/jars/libdc1394-2.2.5-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/libfreenect/jars/libfreenect-0.5.7-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/libfreenect2/jars/libfreenect2-0.2.0-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/librealsense/jars/librealsense-1.12.1-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/videoinput/jars/videoinput-0.200-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/artoolkitplus/jars/artoolkitplus-2.3.1-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/flandmark/jars/flandmark-1.07-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-windows-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-ppc64le.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-arm.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-armhf.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/tesseract/jars/tesseract-4.0.0-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/opencv-platform/jars/opencv-platform-4.0.1-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/leptonica-platform/jars/leptonica-platform-1.78.0-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5-platform/jars/hdf5-platform-1.10.5-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-linux-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-windows-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-linux-ppc64le.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-datavec-iterators/jars/deeplearning4j-datavec-iterators-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-modelimport/jars/deeplearning4j-modelimport-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-ui-components/jars/deeplearning4j-ui-components-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native-platform/jars/nd4j-native-platform-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas-platform/jars/openblas-platform-0.3.5-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-armhf.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-windows-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-arm.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-ppc64le.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-ios-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-ios-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl-platform/jars/mkl-platform-2019.3-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-linux-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-windows-x86.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn-platform/jars/mkl-dnn-platform-0.18.1-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-x86.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-ios-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-linux-ppc64le.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-macosx-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-linux-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-ios-arm64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-windows-x86_64.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-arm.jar",
+            "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-linux-armhf.jar"
         ],
         "out" : "/home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/.bloop/root",
         "classesDir" : "/home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/.bloop/root/scala-2.11/classes",
@@ -224,38 +367,6 @@
                     ]
                 },
                 {
-                    "organization" : "commons-io",
-                    "name" : "commons-io",
-                    "version" : "2.1",
-                    "artifacts" : [
-                        {
-                            "name" : "commons-io",
-                            "path" : "/home/lbali/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.1.jar"
-                        },
-                        {
-                            "name" : "commons-io",
-                            "classifier" : "sources",
-                            "path" : "/home/lbali/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "org.slf4j",
-                    "name" : "slf4j-api",
-                    "version" : "1.7.5",
-                    "artifacts" : [
-                        {
-                            "name" : "slf4j-api",
-                            "path" : "/home/lbali/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar"
-                        },
-                        {
-                            "name" : "slf4j-api",
-                            "classifier" : "sources",
-                            "path" : "/home/lbali/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "args4j",
                     "name" : "args4j",
                     "version" : "2.0.29",
@@ -268,6 +379,1654 @@
                             "name" : "args4j",
                             "classifier" : "sources",
                             "path" : "/home/lbali/.ivy2/cache/args4j/args4j/srcs/args4j-2.0.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-core",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-core",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/jars/deeplearning4j-core-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-core",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-tsne",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-tsne",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-tsne/jars/deeplearning4j-tsne-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-tsne",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-tsne/srcs/deeplearning4j-tsne-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "nearestneighbor-core",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nearestneighbor-core",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/nearestneighbor-core/jars/nearestneighbor-core-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nearestneighbor-core",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/nearestneighbor-core/srcs/nearestneighbor-core-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-api",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-api",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-api/jars/nd4j-api-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-api",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.jakewharton.byteunits",
+                    "name" : "byteunits",
+                    "version" : "0.9.1",
+                    "artifacts" : [
+                        {
+                            "name" : "byteunits",
+                            "path" : "/home/lbali/.ivy2/cache/com.jakewharton.byteunits/byteunits/jars/byteunits-0.9.1.jar"
+                        },
+                        {
+                            "name" : "byteunits",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.jakewharton.byteunits/byteunits/srcs/byteunits-0.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-math3",
+                    "version" : "3.5",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-math3",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.5.jar"
+                        },
+                        {
+                            "name" : "commons-math3",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.flatbuffers",
+                    "name" : "flatbuffers-java",
+                    "version" : "1.10.0",
+                    "artifacts" : [
+                        {
+                            "name" : "flatbuffers-java",
+                            "path" : "/home/lbali/.ivy2/cache/com.google.flatbuffers/flatbuffers-java/bundles/flatbuffers-java-1.10.0.jar"
+                        },
+                        {
+                            "name" : "flatbuffers-java",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.google.flatbuffers/flatbuffers-java/srcs/flatbuffers-java-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.os72",
+                    "name" : "protobuf-java-shaded-351",
+                    "version" : "0.9",
+                    "artifacts" : [
+                        {
+                            "name" : "protobuf-java-shaded-351",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.os72/protobuf-java-shaded-351/jars/protobuf-java-shaded-351-0.9.jar"
+                        },
+                        {
+                            "name" : "protobuf-java-shaded-351",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.os72/protobuf-java-shaded-351/srcs/protobuf-java-shaded-351-0.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.os72",
+                    "name" : "protobuf-java-util-shaded-351",
+                    "version" : "0.9",
+                    "artifacts" : [
+                        {
+                            "name" : "protobuf-java-util-shaded-351",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.os72/protobuf-java-util-shaded-351/jars/protobuf-java-util-shaded-351-0.9.jar"
+                        },
+                        {
+                            "name" : "protobuf-java-util-shaded-351",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.os72/protobuf-java-util-shaded-351/srcs/protobuf-java-util-shaded-351-0.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.code.gson",
+                    "name" : "gson",
+                    "version" : "2.7",
+                    "artifacts" : [
+                        {
+                            "name" : "gson",
+                            "path" : "/home/lbali/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.7.jar"
+                        },
+                        {
+                            "name" : "gson",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.objenesis",
+                    "name" : "objenesis",
+                    "version" : "2.6",
+                    "artifacts" : [
+                        {
+                            "name" : "objenesis",
+                            "path" : "/home/lbali/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar"
+                        },
+                        {
+                            "name" : "objenesis",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "uk.com.robust-it",
+                    "name" : "cloning",
+                    "version" : "1.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "cloning",
+                            "path" : "/home/lbali/.ivy2/cache/uk.com.robust-it/cloning/bundles/cloning-1.9.3.jar"
+                        },
+                        {
+                            "name" : "cloning",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/uk.com.robust-it/cloning/srcs/cloning-1.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.slf4j",
+                    "name" : "slf4j-api",
+                    "version" : "1.7.21",
+                    "artifacts" : [
+                        {
+                            "name" : "slf4j-api",
+                            "path" : "/home/lbali/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar"
+                        },
+                        {
+                            "name" : "slf4j-api",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "jackson",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "jackson",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/jackson/srcs/jackson-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.yaml",
+                    "name" : "snakeyaml",
+                    "version" : "1.12",
+                    "artifacts" : [
+                        {
+                            "name" : "snakeyaml",
+                            "path" : "/home/lbali/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.12.jar"
+                        },
+                        {
+                            "name" : "snakeyaml",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.codehaus.woodstox",
+                    "name" : "stax2-api",
+                    "version" : "3.1.4",
+                    "artifacts" : [
+                        {
+                            "name" : "stax2-api",
+                            "path" : "/home/lbali/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-3.1.4.jar"
+                        },
+                        {
+                            "name" : "stax2-api",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.codehaus.woodstox/stax2-api/srcs/stax2-api-3.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "joda-time",
+                    "name" : "joda-time",
+                    "version" : "2.2",
+                    "artifacts" : [
+                        {
+                            "name" : "joda-time",
+                            "path" : "/home/lbali/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.2.jar"
+                        },
+                        {
+                            "name" : "joda-time",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "commons-net",
+                    "name" : "commons-net",
+                    "version" : "3.1",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-net",
+                            "path" : "/home/lbali/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar"
+                        },
+                        {
+                            "name" : "commons-net",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-buffer",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-buffer",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-buffer/jars/nd4j-buffer-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-buffer",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-buffer/srcs/nd4j-buffer-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-context",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-context",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-context/jars/nd4j-context-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-context",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-context/srcs/nd4j-context-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-common",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-common",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-common/jars/nd4j-common-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-common",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-common/srcs/nd4j-common-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "commons-io",
+                    "name" : "commons-io",
+                    "version" : "2.5",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-io",
+                            "path" : "/home/lbali/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.5.jar"
+                        },
+                        {
+                            "name" : "commons-io",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-lang3",
+                    "version" : "3.6",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-lang3",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.6.jar"
+                        },
+                        {
+                            "name" : "commons-lang3",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-compress",
+                    "version" : "1.16.1",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-compress",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.16.1.jar"
+                        },
+                        {
+                            "name" : "commons-compress",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.16.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.guava",
+                    "name" : "guava",
+                    "version" : "20.0",
+                    "artifacts" : [
+                        {
+                            "name" : "guava",
+                            "path" : "/home/lbali/.ivy2/cache/com.google.guava/guava/bundles/guava-20.0.jar"
+                        },
+                        {
+                            "name" : "guava",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.google.guava/guava/srcs/guava-20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "javacpp",
+                    "version" : "1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "javacpp",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/javacpp/jars/javacpp-1.5.jar"
+                        },
+                        {
+                            "name" : "javacpp",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/javacpp/srcs/javacpp-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.ericaro",
+                    "name" : "neoitertools",
+                    "version" : "1.0.0",
+                    "artifacts" : [
+                        {
+                            "name" : "neoitertools",
+                            "path" : "/home/lbali/.ivy2/cache/net.ericaro/neoitertools/jars/neoitertools-1.0.0.jar"
+                        },
+                        {
+                            "name" : "neoitertools",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/net.ericaro/neoitertools/srcs/neoitertools-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-nn",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-nn",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/jars/deeplearning4j-nn-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-nn",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-utility-iterators",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-utility-iterators",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-utility-iterators/jars/deeplearning4j-utility-iterators-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-utility-iterators",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-utility-iterators/srcs/deeplearning4j-utility-iterators-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-util",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-util",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-util/jars/deeplearning4j-util-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-util",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-util/srcs/deeplearning4j-util-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.lucee",
+                    "name" : "oswego-concurrent",
+                    "version" : "1.3.4",
+                    "artifacts" : [
+                        {
+                            "name" : "oswego-concurrent",
+                            "path" : "/home/lbali/.ivy2/cache/org.lucee/oswego-concurrent/bundles/oswego-concurrent-1.3.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-common",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-common",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-common/jars/deeplearning4j-common-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-common",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-common/srcs/deeplearning4j-common-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-native-api",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-native-api",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native-api/jars/nd4j-native-api-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-native-api",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native-api/srcs/nd4j-native-api-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-jackson",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-jackson",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-jackson/jars/nd4j-jackson-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-jackson",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-jackson/srcs/nd4j-jackson-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.oshi",
+                    "name" : "oshi-core",
+                    "version" : "3.4.2",
+                    "artifacts" : [
+                        {
+                            "name" : "oshi-core",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.oshi/oshi-core/jars/oshi-core-3.4.2.jar"
+                        },
+                        {
+                            "name" : "oshi-core",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.oshi/oshi-core/srcs/oshi-core-3.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.java.dev.jna",
+                    "name" : "jna-platform",
+                    "version" : "4.3.0",
+                    "artifacts" : [
+                        {
+                            "name" : "jna-platform",
+                            "path" : "/home/lbali/.ivy2/cache/net.java.dev.jna/jna-platform/jars/jna-platform-4.3.0.jar"
+                        },
+                        {
+                            "name" : "jna-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/net.java.dev.jna/jna-platform/srcs/jna-platform-4.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.java.dev.jna",
+                    "name" : "jna",
+                    "version" : "4.3.0",
+                    "artifacts" : [
+                        {
+                            "name" : "jna",
+                            "path" : "/home/lbali/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.3.0.jar"
+                        },
+                        {
+                            "name" : "jna",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/net.java.dev.jna/jna/srcs/jna-4.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.threeten",
+                    "name" : "threetenbp",
+                    "version" : "1.3.3",
+                    "artifacts" : [
+                        {
+                            "name" : "threetenbp",
+                            "path" : "/home/lbali/.ivy2/cache/org.threeten/threetenbp/jars/threetenbp-1.3.3.jar"
+                        },
+                        {
+                            "name" : "threetenbp",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.threeten/threetenbp/srcs/threetenbp-1.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "it.unimi.dsi",
+                    "name" : "fastutil",
+                    "version" : "6.5.7",
+                    "artifacts" : [
+                        {
+                            "name" : "fastutil",
+                            "path" : "/home/lbali/.ivy2/cache/it.unimi.dsi/fastutil/jars/fastutil-6.5.7.jar"
+                        },
+                        {
+                            "name" : "fastutil",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/it.unimi.dsi/fastutil/srcs/fastutil-6.5.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-datasets",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-datasets",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-datasets/jars/deeplearning4j-datasets-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-datasets",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-datasets/srcs/deeplearning4j-datasets-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.datavec",
+                    "name" : "datavec-data-image",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "datavec-data-image",
+                            "path" : "/home/lbali/.ivy2/cache/org.datavec/datavec-data-image/jars/datavec-data-image-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "datavec-data-image",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.datavec/datavec-data-image/srcs/datavec-data-image-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.datavec",
+                    "name" : "datavec-api",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "datavec-api",
+                            "path" : "/home/lbali/.ivy2/cache/org.datavec/datavec-api/jars/datavec-api-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "datavec-api",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.datavec/datavec-api/srcs/datavec-api-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.freemarker",
+                    "name" : "freemarker",
+                    "version" : "2.3.23",
+                    "artifacts" : [
+                        {
+                            "name" : "freemarker",
+                            "path" : "/home/lbali/.ivy2/cache/org.freemarker/freemarker/jars/freemarker-2.3.23.jar"
+                        },
+                        {
+                            "name" : "freemarker",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.freemarker/freemarker/srcs/freemarker-2.3.23-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.clearspring.analytics",
+                    "name" : "stream",
+                    "version" : "2.7.0",
+                    "artifacts" : [
+                        {
+                            "name" : "stream",
+                            "path" : "/home/lbali/.ivy2/cache/com.clearspring.analytics/stream/jars/stream-2.7.0.jar"
+                        },
+                        {
+                            "name" : "stream",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.clearspring.analytics/stream/srcs/stream-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.sf.opencsv",
+                    "name" : "opencsv",
+                    "version" : "2.3",
+                    "artifacts" : [
+                        {
+                            "name" : "opencsv",
+                            "path" : "/home/lbali/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar"
+                        },
+                        {
+                            "name" : "opencsv",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.tdunning",
+                    "name" : "t-digest",
+                    "version" : "3.2",
+                    "artifacts" : [
+                        {
+                            "name" : "t-digest",
+                            "path" : "/home/lbali/.ivy2/cache/com.tdunning/t-digest/jars/t-digest-3.2.jar"
+                        },
+                        {
+                            "name" : "t-digest",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.tdunning/t-digest/srcs/t-digest-3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.jai-imageio",
+                    "name" : "jai-imageio-core",
+                    "version" : "1.3.0",
+                    "artifacts" : [
+                        {
+                            "name" : "jai-imageio-core",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.jai-imageio/jai-imageio-core/jars/jai-imageio-core-1.3.0.jar"
+                        },
+                        {
+                            "name" : "jai-imageio-core",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.github.jai-imageio/jai-imageio-core/srcs/jai-imageio-core-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.imageio",
+                    "name" : "imageio-jpeg",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "imageio-jpeg",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/jars/imageio-jpeg-3.1.1.jar"
+                        },
+                        {
+                            "name" : "imageio-jpeg",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-jpeg/srcs/imageio-jpeg-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.imageio",
+                    "name" : "imageio-metadata",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "imageio-metadata",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/jars/imageio-metadata-3.1.1.jar"
+                        },
+                        {
+                            "name" : "imageio-metadata",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-metadata/srcs/imageio-metadata-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.common",
+                    "name" : "common-lang",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "common-lang",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-lang/jars/common-lang-3.1.1.jar"
+                        },
+                        {
+                            "name" : "common-lang",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-lang/srcs/common-lang-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.common",
+                    "name" : "common-io",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "common-io",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-io/jars/common-io-3.1.1.jar"
+                        },
+                        {
+                            "name" : "common-io",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-io/srcs/common-io-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.common",
+                    "name" : "common-image",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "common-image",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-image/jars/common-image-3.1.1.jar"
+                        },
+                        {
+                            "name" : "common-image",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.common/common-image/srcs/common-image-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.imageio",
+                    "name" : "imageio-tiff",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "imageio-tiff",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/jars/imageio-tiff-3.1.1.jar"
+                        },
+                        {
+                            "name" : "imageio-tiff",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-tiff/srcs/imageio-tiff-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.imageio",
+                    "name" : "imageio-psd",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "imageio-psd",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/jars/imageio-psd-3.1.1.jar"
+                        },
+                        {
+                            "name" : "imageio-psd",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-psd/srcs/imageio-psd-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.twelvemonkeys.imageio",
+                    "name" : "imageio-bmp",
+                    "version" : "3.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "imageio-bmp",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/jars/imageio-bmp-3.1.1.jar"
+                        },
+                        {
+                            "name" : "imageio-bmp",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/com.twelvemonkeys.imageio/imageio-bmp/srcs/imageio-bmp-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "javacv",
+                    "version" : "1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "javacv",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.5.jar"
+                        },
+                        {
+                            "name" : "javacv",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/javacv/srcs/javacv-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "opencv",
+                    "version" : "4.0.1-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "opencv",
+                            "classifier" : "windows-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-windows-x86.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "linux-ppc64le",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-ppc64le.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "android-arm",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-arm.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "linux-armhf",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-armhf.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "android-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-arm64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "ios-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-ios-arm64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "android-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-x86_64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "ios-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-ios-x86_64.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "android-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-android-x86.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "linux-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/jars/opencv-4.0.1-1.5-linux-x86.jar"
+                        },
+                        {
+                            "name" : "opencv",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv/srcs/opencv-4.0.1-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "ffmpeg",
+                    "version" : "4.1.3-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "ffmpeg",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/ffmpeg/jars/ffmpeg-4.1.3-1.5.jar"
+                        },
+                        {
+                            "name" : "ffmpeg",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/ffmpeg/srcs/ffmpeg-4.1.3-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "flycapture",
+                    "version" : "2.13.3.31-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "flycapture",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/flycapture/jars/flycapture-2.13.3.31-1.5.jar"
+                        },
+                        {
+                            "name" : "flycapture",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/flycapture/srcs/flycapture-2.13.3.31-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "libdc1394",
+                    "version" : "2.2.5-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "libdc1394",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/libdc1394/jars/libdc1394-2.2.5-1.5.jar"
+                        },
+                        {
+                            "name" : "libdc1394",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/libdc1394/srcs/libdc1394-2.2.5-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "libfreenect",
+                    "version" : "0.5.7-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "libfreenect",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/libfreenect/jars/libfreenect-0.5.7-1.5.jar"
+                        },
+                        {
+                            "name" : "libfreenect",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/libfreenect/srcs/libfreenect-0.5.7-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "libfreenect2",
+                    "version" : "0.2.0-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "libfreenect2",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/libfreenect2/jars/libfreenect2-0.2.0-1.5.jar"
+                        },
+                        {
+                            "name" : "libfreenect2",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/libfreenect2/srcs/libfreenect2-0.2.0-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "librealsense",
+                    "version" : "1.12.1-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "librealsense",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/librealsense/jars/librealsense-1.12.1-1.5.jar"
+                        },
+                        {
+                            "name" : "librealsense",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/librealsense/srcs/librealsense-1.12.1-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "videoinput",
+                    "version" : "0.200-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "videoinput",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/videoinput/jars/videoinput-0.200-1.5.jar"
+                        },
+                        {
+                            "name" : "videoinput",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/videoinput/srcs/videoinput-0.200-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "artoolkitplus",
+                    "version" : "2.3.1-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "artoolkitplus",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/artoolkitplus/jars/artoolkitplus-2.3.1-1.5.jar"
+                        },
+                        {
+                            "name" : "artoolkitplus",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/artoolkitplus/srcs/artoolkitplus-2.3.1-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "flandmark",
+                    "version" : "1.07-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "flandmark",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/flandmark/jars/flandmark-1.07-1.5.jar"
+                        },
+                        {
+                            "name" : "flandmark",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/flandmark/srcs/flandmark-1.07-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "leptonica",
+                    "version" : "1.78.0-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "leptonica",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "linux-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-x86.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "android-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-x86.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "windows-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-windows-x86.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "linux-ppc64le",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-ppc64le.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "android-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-x86_64.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "android-arm",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-arm.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "android-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-android-arm64.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "linux-armhf",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-armhf.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/jars/leptonica-1.78.0-1.5-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "leptonica",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica/srcs/leptonica-1.78.0-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "tesseract",
+                    "version" : "4.0.0-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "tesseract",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/tesseract/jars/tesseract-4.0.0-1.5.jar"
+                        },
+                        {
+                            "name" : "tesseract",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/tesseract/srcs/tesseract-4.0.0-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "opencv-platform",
+                    "version" : "4.0.1-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "opencv-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv-platform/jars/opencv-platform-4.0.1-1.5.jar"
+                        },
+                        {
+                            "name" : "opencv-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/opencv-platform/srcs/opencv-platform-4.0.1-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "leptonica-platform",
+                    "version" : "1.78.0-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "leptonica-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica-platform/jars/leptonica-platform-1.78.0-1.5.jar"
+                        },
+                        {
+                            "name" : "leptonica-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/leptonica-platform/srcs/leptonica-platform-1.78.0-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "hdf5-platform",
+                    "version" : "1.10.5-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "hdf5-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5-platform/jars/hdf5-platform-1.10.5-1.5.jar"
+                        },
+                        {
+                            "name" : "hdf5-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5-platform/srcs/hdf5-platform-1.10.5-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "hdf5",
+                    "version" : "1.10.5-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "hdf5",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "linux-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-linux-x86.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "windows-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-windows-x86.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "linux-ppc64le",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/jars/hdf5-1.10.5-1.5-linux-ppc64le.jar"
+                        },
+                        {
+                            "name" : "hdf5",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/hdf5/srcs/hdf5-1.10.5-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-datavec-iterators",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-datavec-iterators",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-datavec-iterators/jars/deeplearning4j-datavec-iterators-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-datavec-iterators",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-datavec-iterators/srcs/deeplearning4j-datavec-iterators-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-modelimport",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-modelimport",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-modelimport/jars/deeplearning4j-modelimport-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-modelimport",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-modelimport/srcs/deeplearning4j-modelimport-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.deeplearning4j",
+                    "name" : "deeplearning4j-ui-components",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "deeplearning4j-ui-components",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-ui-components/jars/deeplearning4j-ui-components-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "deeplearning4j-ui-components",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-ui-components/srcs/deeplearning4j-ui-components-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-native-platform",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-native-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native-platform/jars/nd4j-native-platform-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-native-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native-platform/srcs/nd4j-native-platform-1.0.0-beta4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "openblas-platform",
+                    "version" : "0.3.5-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "openblas-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas-platform/jars/openblas-platform-0.3.5-1.5.jar"
+                        },
+                        {
+                            "name" : "openblas-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas-platform/srcs/openblas-platform-0.3.5-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "openblas",
+                    "version" : "0.3.5-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "openblas",
+                            "classifier" : "linux-armhf",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-armhf.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "windows-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-windows-x86.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "android-arm",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-arm.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "android-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-x86.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "linux-ppc64le",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-ppc64le.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "android-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-x86_64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "ios-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-ios-x86_64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "ios-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-ios-arm64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "linux-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-linux-x86.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "android-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/jars/openblas-0.3.5-1.5-android-arm64.jar"
+                        },
+                        {
+                            "name" : "openblas",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/openblas/srcs/openblas-0.3.5-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "mkl-platform",
+                    "version" : "2019.3-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "mkl-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-platform/jars/mkl-platform-2019.3-1.5.jar"
+                        },
+                        {
+                            "name" : "mkl-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-platform/srcs/mkl-platform-2019.3-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "mkl",
+                    "version" : "2019.3-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "mkl",
+                            "classifier" : "linux-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-linux-x86.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "classifier" : "windows-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-windows-x86.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "classifier" : "",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/jars/mkl-2019.3-1.5.jar"
+                        },
+                        {
+                            "name" : "mkl",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl/srcs/mkl-2019.3-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "mkl-dnn-platform",
+                    "version" : "0.18.1-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "mkl-dnn-platform",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn-platform/jars/mkl-dnn-platform-0.18.1-1.5.jar"
+                        },
+                        {
+                            "name" : "mkl-dnn-platform",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn-platform/srcs/mkl-dnn-platform-0.18.1-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bytedeco",
+                    "name" : "mkl-dnn",
+                    "version" : "0.18.1-1.5",
+                    "artifacts" : [
+                        {
+                            "name" : "mkl-dnn",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "mkl-dnn",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5.jar"
+                        },
+                        {
+                            "name" : "mkl-dnn",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "mkl-dnn",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "mkl-dnn",
+                            "classifier" : "",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/jars/mkl-dnn-0.18.1-1.5.jar"
+                        },
+                        {
+                            "name" : "mkl-dnn",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.bytedeco/mkl-dnn/srcs/mkl-dnn-0.18.1-1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.nd4j",
+                    "name" : "nd4j-native",
+                    "version" : "1.0.0-beta4",
+                    "artifacts" : [
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "android-x86",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-x86.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "android-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-arm64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "ios-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-ios-x86_64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "linux-ppc64le",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-linux-ppc64le.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "macosx-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-macosx-x86_64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "linux-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-linux-x86_64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "ios-arm64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-ios-arm64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "android-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-x86_64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "windows-x86_64",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-windows-x86_64.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "android-arm",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-android-arm.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "linux-armhf",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/jars/nd4j-native-1.0.0-beta4-linux-armhf.jar"
+                        },
+                        {
+                            "name" : "nd4j-native",
+                            "classifier" : "sources",
+                            "path" : "/home/lbali/.ivy2/cache/org.nd4j/nd4j-native/srcs/nd4j-native-1.0.0-beta4-sources.jar"
                         }
                     ]
                 }

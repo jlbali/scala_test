@@ -1,0 +1,17 @@
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar(org/nd4j/shade/jackson/annotation/JsonTypeInfo.class), could not find ANNOTATION_TYPE in enum object ElementType.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar(org/nd4j/shade/jackson/annotation/JsonTypeInfo.class), could not find TYPE in enum object ElementType.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar(org/nd4j/shade/jackson/annotation/JsonTypeInfo.class), could not find FIELD in enum object ElementType.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar(org/nd4j/shade/jackson/annotation/JsonTypeInfo.class), could not find METHOD in enum object ElementType.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar(org/nd4j/shade/jackson/annotation/JsonTypeInfo.class), could not find PARAMETER in enum object ElementType.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.nd4j/jackson/jars/jackson-1.0.0-beta4.jar(org/nd4j/shade/jackson/annotation/JsonTypeInfo.class), could not find RUNTIME in enum object RetentionPolicy.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/jars/deeplearning4j-nn-1.0.0-beta4.jar(org/deeplearning4j/nn/conf/layers/Layer.class), could not find CLASS in enum object Id.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0mWhile parsing annotations in /home/lbali/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/jars/deeplearning4j-nn-1.0.0-beta4.jar(org/deeplearning4j/nn/conf/layers/Layer.class), could not find PROPERTY in enum object As.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThis is likely due to an implementation restriction: an annotation argument cannot refer to a member of the annotated class (SI-7014).[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m

@@ -4,6 +4,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dl4j[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/dl4j[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Greeting.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/example/Greeting.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
@@ -14,10 +16,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/example/Hello$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Hello.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/example/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dl4j/DL4J_1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/dl4j/DL4J_1$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Samples$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/example/Samples$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Samples.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/example/Samples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dl4j/DL4J_1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/dl4j/DL4J_1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example/Greeting$class.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/lbali/proyectos/Gits/scala_test/proyectos/deep_learning/target/scala-2.11/classes/example/Greeting$class.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
